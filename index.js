@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get("/api/test", (req, res) => {
-  res.send("mau otario");
+  res.send("testando de vez");
 });
 
 app.use(express.static(path.join(__dirname, "./client/dist")));
